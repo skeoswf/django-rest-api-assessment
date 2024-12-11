@@ -1,11 +1,21 @@
 {
-    "pylint.args"	: [
+    "pylint.args": [
         "--load-plugins=pylint_django",
-        "--django-settings-module=tunapiano.settings",
+        "--django-settings-module=tunapiano.settings"
     ],
     "python.testing.pytestArgs": [
         "."
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module=<django-rest-api-assessment>.settings"
+    ],
+    "cSpell.words": [
+        "songgenre",
+        "songgenres",
+        "tunaapi",
+        "viewsets"
+    ]
 }
