@@ -1,5 +1,6 @@
 from rest_framework import status
 from rest_framework.test import APITestCase
+from faker import Faker
 
 from tunaapi.models import Song
 from .utils import create_data, refresh_data

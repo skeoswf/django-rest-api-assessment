@@ -1,12 +1,9 @@
 import random
-
 from faker import Faker
-
 from tunaapi.models import Artist, Song, Genre, SongGenre
 
 
 def create_data(cls):
-    cls.faker = Faker()
     cls.artists = []
     cls.songs = []
     cls.genres = []

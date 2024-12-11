@@ -1,0 +1,18 @@
+[
+  {
+    "model": "tunaapi.songgenre",
+    "pk": 1,
+    "fields": {
+      "song": 123,
+      "genre": 123
+    }
+  },
+  {
+    "model": "tunaapi.songgenre",
+    "pk": 2,
+    "fields": {
+      "song": 789,
+      "genre": 456
+    }
+  }
+]
